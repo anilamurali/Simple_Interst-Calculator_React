@@ -1,0 +1,55 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  width: 100%;
+  height: 800px;
+}
+.container{
+  background-color: antiquewhite;
+  width: 500px;
+  border-radius: 20px;
+  padding: 50px;
+}
+.head{
+  font-size: 16px;
+  text-align: center;
+
+}
+p{
+  text-align: justify;
+  /* padding: 10px; */
+}
+.card{
+  width: 500px;
+  height: 150px;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+}
+.symbol{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 30px;
+}
+.button-group{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#standard-basic{
+  width: 500px;
+  margin-top: 20px;
+}
+
